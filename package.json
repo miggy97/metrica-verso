@@ -1,0 +1,39 @@
+{
+  "name": "metrica-verso",
+  "version": "1.0.0",
+  "description": "Analyzes the metric of a verse in Spanish",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miggy97/metrica-verso.git"
+  },
+  "keywords": [
+    "verso",
+    "metrica",
+    "poema",
+    "verse",
+    "meter",
+    "metric",
+    "metrics",
+    "spanish",
+    "rima",
+    "rhyme"
+  ],
+  "author": "miggy97",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miggy97/metrica-verso/issues"
+  },
+  "homepage": "https://github.com/miggy97/metrica-verso#readme",
+  "dependencies": {
+    "riman": "^1.1.0"
+  }
+}
