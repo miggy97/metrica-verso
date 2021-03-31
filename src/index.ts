@@ -22,6 +22,9 @@ export function analyze(verso: string): metrica {
     },
   };
   const words: string[] = splitWords(verso);
+
+  if(!words[0]) throw new Error("you need to enter at least a word");
+
   metrica.palabras = words;
 
   const dieresis: string[] = [];
